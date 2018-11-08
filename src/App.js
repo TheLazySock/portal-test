@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Button from './Button';
-import Child from './Button';
+import Child from './Child';
 
 class App extends React.Component {
   render() {
@@ -12,7 +12,9 @@ class App extends React.Component {
           {/* Header */}
         </header>
         <section className="app-section">
-          <Button />
+          <Button>
+            <Child />
+          </Button>
         </section>
       </div>
     );

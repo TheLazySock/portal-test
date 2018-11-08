@@ -1,0 +1,11 @@
+.child-block {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    border: solid 1px #d2b1b1;
+    font-size: 16px;
+    line-height: 16px;
+}
